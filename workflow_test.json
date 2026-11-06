@@ -1,0 +1,8 @@
+{
+  "name": "MRD_traceability_Windows_POC",
+  "version": "0.2",
+  "steps": [
+    {"name": "check_fastq", "command": ["{python}", "{base}/fake_scripts/check_fastq.py", "--config", "{config}", "--threads", "4"]},
+    {"name": "MRD_specific", "command": ["{python}", "{base}/fake_scripts/MRD_specific.py", "--config", "{config}", "--check_controls"]}
+  ]
+}

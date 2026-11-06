@@ -1,0 +1,2 @@
+Project,Patient_ID,Sample_ID,Altum_ID,Info,Dir,BarCode,Run
+TEST_PROJECT,P001,S001,AL001,FOLLOW,C:/MRD_POC/FASTQ,BC01,Run01
